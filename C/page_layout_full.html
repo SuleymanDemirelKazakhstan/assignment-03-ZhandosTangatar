@@ -2,6 +2,96 @@
 <head>
 <style>
 /* Write your code here */
+  nav a{
+    text-align: center;
+    font-size: 20px;
+    text-decoration-line: none;
+    color: black;
+    width: 150px;
+    background-color: grey;
+
+  }
+
+  nav a:hover{
+    background-color: red;
+    color: white;
+  }
+
+  .active{
+    /*background-color: red;*/
+    /*color: white;*/
+  }
+
+  nav{
+    display: flex;
+  }
+
+  .logo_part img{
+    width: 200px;
+    height: 100px;
+  }
+
+
+  body{
+    background-image: url("http://backgroundlabs.com/wp-content/uploads/2013/04/subtle-mosaic-pattern.png");
+    margin: 0px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+    height: 100vh;
+    margin: 0px 400px;
+  }
+  
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    border-radius: 5px; 
+  }
+
+  .title{
+    background-color: rgb(85, 153, 254);
+    color: white;
+    text-decoration-line: none; 
+    text-align: center;
+  }
+
+  .price{
+    text-align: center;
+    font-weight: bold;
+   }
+
+   footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: auto;
+    height: 50px;
+   }
+
+   .logo_part{
+    display: flex;
+   }
+
+   .search{
+    display: flex;
+    margin: 30px 100px; 
+    height: 25px;
+   }
+
 </style>
 </head>
 <body>
